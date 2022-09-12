@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    tools:context=".MainActivity5">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#3F51B5">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:id="@+id/imgback"
+                android:layout_width="68dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="-5dp"
+                app:srcCompat="@drawable/icon_back" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="349dp"
+                android:layout_height="match_parent"
+                android:text="INDONESIA"
+                android:layout_marginTop="6dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="16dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="1">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="174dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/indonesia_map1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="230dp"
+                android:layout_height="226dp"
+                android:layout_marginLeft="6dp"
+                android:text="Giới thiệu: Indonesia còn được mệnh danh là “xứ sở vạn đảo” khi sở hữu hơn 18.306 hòn đảo lớn nhỏ. Các hòn đảo này được phủ xanh bởi những khu rừng nhiệt đới rậm rạp với mức độ sinh học cao hàng đầu thế giới"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="356dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="6dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Diện tích: 1.904.569 km², xếp hạng 15 thế giới. "
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Dân số: khoảng 250.000.000 người (2013)"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Thủ đô: Jakarta"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Kinh tuyến: 120 độ 00 kinh đông"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Vĩ tuyến:  5 độ 00 vĩ nam"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Khí hậu:  nóng, ẩm; ở vùng núi khí hậu dịu hơn"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Địa hình:  Phần lớn là vùng đất thấp ven biển, các đảo lớn có núi ở giữa trung tâm."
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Tài nguyên: Dầu mỏ, thiếc, khí tự nhiên, niken, gỗ, bô xit, đồng, đất đai màu mỡ, than đá, vàng, bạc."
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="- Tôn giáo: Đạo Hồi (88%), đạo Tin lành (5%), đạo Thiên chúa (3%), đạo Hin-du (2%), đạo Phật (1%), các tôn giáo khác (1%)."
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

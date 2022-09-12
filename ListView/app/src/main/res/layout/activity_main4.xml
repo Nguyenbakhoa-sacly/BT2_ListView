@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    tools:context=".MainActivity4">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#3F51B5">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:id="@+id/imgback"
+                android:layout_width="68dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="-5dp"
+                app:srcCompat="@drawable/icon_back" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="349dp"
+                android:layout_height="match_parent"
+                android:text="Thái Lan"
+                android:layout_marginTop="6dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="241dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="9dp"
+            android:layout_column="1">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+
+                app:srcCompat="@drawable/thailan_map" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="230dp"
+                android:layout_marginLeft="6dp"
+                android:layout_height="match_parent"
+                android:text="Giới thiệu: Đất nước Thái Lan được mệnh danh xứ sở chùa vàng, một trong những vương quốc ít ỏi trên thế giới. Thái Lan có điều kiện địa lý, khí hậu khá giống với Việt Nam. Thái Lan là một trong những nước thu hút nhiều khách du lịch nhất, đứng vị trí thứ 9 trên toàn thế giới, "
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="406dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Diện tích: 513.120 km2 "
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Dân số: 69,17 triệu người (2018) "
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Thủ đô: Bangkok "
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Kinh tuyến: 100 độ 00 kinh đông"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Vĩ tuyến:15 độ 00 vĩ bắc"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Khí hậu: Khí hậu nhiệt đới gió mùa. Thời tiết nóng, mưa nhiều."
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Địa hình: Phía bắc Thái Lancó địa hình đồi núi, với điểm cao nhất (2.576 m) là Doi Inthanon,..."
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Các điểm du lịch: Cột đá  Lalu, hang Morakot, bãi biển Karma, vịnh Phang Nga, đảo Similan, đảo Similan, thác Huay Mae Khanim,..."
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Sắc tộc: 34,1% Trung Thái, 24,9% Khon Isan, 9,9% Khon Muang, 7.5% Nam Thái, 14% người Hoa, 12% khác "
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
